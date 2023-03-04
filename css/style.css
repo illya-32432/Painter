@@ -10,7 +10,7 @@ header{
 }
 
 .wrapper{
-    max-width: /*1420px*/ 1200px;
+    max-width: 1420px;
     margin: 0 auto;
 }
 
@@ -57,8 +57,36 @@ header{
     background-color: #f79b9b;
 }
 
-.margin-top{
+.first-block{
     margin-top: 10rem;
+}
+
+.second-block{
+    margin-top: 25rem;
+    display: flex;
+}
+
+.about-me-h2{
+    font-size: 48px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+.about-me-list{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.about-me-list:before{
+    content: url(../img/paintbrush.png);
+    position: relative;
+    right: 2rem;
 }
 
 .first-list-text{
@@ -199,14 +227,14 @@ h1{
 
 .girl-image{
     position: absolute;
-    width: 53rem;
+    width: 52.7rem;
     min-height: 50rem;
     background: url(../img/beautiful-girl.jpg);
     -webkit-mask-image: url(../img/mask-bg.svg);
     mask-image: url(../img/mask-bg.svg);
     -webkit-mask-size: cover;
     mask-size: cover;
-    right: 6rem;
+    right: 2rem;
     top: 6rem;
     z-index: -1;
 }
