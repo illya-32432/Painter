@@ -71,6 +71,10 @@ header{
     margin-top: 10rem;
 }
 
+.four-block{
+    margin-top: 10rem;
+}
+
 .about-me-h2{
     font-size: 48px;
     color: #000000;
@@ -284,6 +288,16 @@ h1{
     font-size: 48px;
     color: #000;
     font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.h{
+    font-size: 48px;
+    color: #000;
+    font-weight: 800;
+    font-family: "Montserrat";
+    padding-left: 7rem;
+    margin-bottom: 0;
 }
 
 .scroll-img {
@@ -327,4 +341,25 @@ h1{
     padding-bottom: 35px;
     width: 610px;
     height: 363px;
+}
+
+.bg2{
+    position: absolute;
+    width: 51.6rem;
+    min-height: 39rem;
+    background: url(../img/female-artist-painting-on-canvas-with-an-easel_163305-25589.svg);
+    top: 195rem;
+    z-index: -1;
+}
+
+.g{
+    padding-right: 4rem;
+}
+
+.odno-u-toge{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: right;
 }
